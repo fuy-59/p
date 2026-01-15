@@ -1,0 +1,20 @@
+# --- Quarto & RStudio Output ---
+/.quarto/
+/_book/
+/_freeze/
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# --- System Files ---
+.DS_Store
+Thumbs.db
+
+# --- Renv (Package Management) ---
+# Keep 'renv/' folder, but ignore the massive library of downloaded files
+renv/library/
+renv/python/
+renv/staging/
+
+**/*.quarto_ipynb
