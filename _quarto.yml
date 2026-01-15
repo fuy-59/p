@@ -1,0 +1,28 @@
+project:
+  type: book
+
+book:
+  title: "SOA Exam P Study Notes"
+  author: "ActuarialFuy"
+  date: last-modified
+  chapters:
+    - index.qmd
+    - part: "Review of Prerequisites"
+      chapters: 
+        - ch01.qmd
+  downloads: [pdf]
+
+format:
+  html:
+    mainfont: "Georgia"
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
+    include-in-header: preamble.tex
+    fontsize: 12pt
+    mainfont: "Libertinus Serif"
+
+editor: source
+

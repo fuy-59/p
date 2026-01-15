@@ -1,0 +1,24 @@
+# Set Theory
+
+A **set** is an *unordered* collection of *distinct* objects, called **member**s or **element**s.
+
+There are several ways to describe a set as illustrated in the following example.
+
+::: {.callout-note title="Example: Describing Sets"}
+  Consider an experiment of flipping a coin 2 times.
+  
+  * The set containing all possible outcomes. Denote this set by $S$: $$S=\{(h,h),(t,t),(h,t),(t,h)\}$$ where $h$ means 'head' and $t$ means 'tail'. This is the **roster method** in which every element is listed.
+  
+  * The set containing the number of tails obtained. Denote this set by $N$. Using the roster method, 
+  $$N=\{0,1,2\}$$ or alternatively, using **set builder** notation,
+  $$N=\{x\mid x\text{ is a non-negative integer less than or equal to }2\}$$ or more compactly,
+  $$N=\{x\in\mathbb{Z}^+\cup\{0\}\mid x\leq 2\}$$
+  where obscure symbols will be discussed afterwards.
+:::
+
+If an object $a$ is a member of set $A$, we denote this by $a\in A$. Otherwise, we denote by $a\notin A$. For example, $(h,t)\in S$, $1\in N$ but $\{1\}\notin N$.
+
+There are some predefined sets, denoted with *blackboard bold* fonts.
+* $\mathbb{C}$: the set of complex numbers
+* $\mathbb{R}$: the set of real numbers
+* $\mathbb{Q}$: the set of rational numbers
